@@ -12,6 +12,7 @@ This project was created as a learning exploration into Machine Learning and Dee
 The goal was to understand the full workflow of MRI analysis. 
 
 Project Contents:
+
 This repository includes:
 - images/ - MRI scans
 - masks/ - tumor segmentation masks
@@ -31,6 +32,7 @@ Each notebook focuses on a specific concept or model.
 Models Implemented:
 1. Machine Learning Models (Random Forest, SVM, Logisitic Regression)
    These models operate on features extracted from MRI images including texture, intensity statistics, etc.
+
    Logistic Regression:
    A classifier that models the probability of a class using the sigmoid function. It learns a weighted combination of input    features and creates a linear decision boundary.
 
@@ -43,7 +45,7 @@ Models Implemented:
    Easy Ensemble Classifier:
    It creates multiple balanced subsets of data and trains and AdaBoost model on each, finally combining them into a final      ensemble. It works well for severe class imbalance.
 
-2. Fully Connected Neural Network (FCN)
+3. Fully Connected Neural Network (FCN)
 A deep learning baseline where each neuron is connected to every neuron in the next layer.
 How it works:
 - Flattens the MRI image into a 1D vector
